@@ -61,7 +61,10 @@ git clone https://github.com/yourusername/ai-voice-cooking-assistant.git
 cd ai-voice-cooking-assistant
 pip install -r requirements.txt
 python main.py
-📌 Usage Example
+
+
+### 📌 Usage Example
+
 👤 You: “Find me a pasta recipe.”
 🤖 Assistant: “Found ‘Garlic Cream Pasta’. Let’s begin.”
 🤖 Assistant: “Step 1: Boil water. Say ‘next’ when ready.”
