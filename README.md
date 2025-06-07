@@ -76,9 +76,15 @@ To build a voice-controlled AI assistant that makes cooking easier and more inte
 
 ---
 
-## 🤝 Contributing
+## ## 📁 Project Structure (Planned)
+## 🚀 Getting Started
 
-Pull requests and ideas are welcome! For major changes, please open an issue first to discuss what you would like to change.
+### Prerequisites
+
+- Python 3.8+
+- Microphone + Speaker
+- API keys (if using Spoonacular / ElevenLabs)
+
 
 ---
 
@@ -90,4 +96,4 @@ MIT License. See `LICENSE` for details.
 
 ## 🙋‍♀️ Creator
 
-Made with ❤️ by **ShravaniJ** — powered by Python & AI.
+Made with ❤️ by **ShravaniJ** — AI/ML Engineer
