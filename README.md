@@ -45,15 +45,19 @@ To build a voice-controlled AI assistant that makes cooking easier and more inte
 ## 📁 Project Structure (Planned)
 
 ---
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.8+
-- Microphone + Speaker
-- API keys (if using Spoonacular / ElevenLabs)
-
+ai-voice-cooking-assistant/
+│
+├── main.py # Main app controller
+├── voice_input.py # Handles microphone input + STT
+├── voice_output.py # TTS responses
+├── recipe_manager.py # Search, fetch, and parse recipes
+├── cooking_assistant.py # Cooking logic, NLP commands
+├── utils/
+│ ├── timer.py # Timer management
+│ └── converter.py # Unit conversions
+├── assets/ # Recipe samples, sound files
+├── requirements.txt
+└── README.md
 
 ## 📌 Usage Example
 
