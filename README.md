@@ -54,13 +54,6 @@ To build a voice-controlled AI assistant that makes cooking easier and more inte
 - Microphone + Speaker
 - API keys (if using Spoonacular / ElevenLabs)
 
-### Installation
-
-```bash
-git clone https://github.com/yourusername/ai-voice-cooking-assistant.git
-cd ai-voice-cooking-assistant
-pip install -r requirements.txt
-python main.py
 
 ## 📌 Usage Example
 
