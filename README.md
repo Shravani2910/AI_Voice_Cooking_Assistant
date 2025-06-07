@@ -62,46 +62,39 @@ cd ai-voice-cooking-assistant
 pip install -r requirements.txt
 python main.py
 
+## 📌 Usage Example
 
-### 📌 Usage Example
-
-👤 You: “Find me a pasta recipe.”
-🤖 Assistant: “Found ‘Garlic Cream Pasta’. Let’s begin.”
-🤖 Assistant: “Step 1: Boil water. Say ‘next’ when ready.”
-👤 You: “Next.”
-🤖 Assistant: “Step 2: Add pasta and cook for 10 minutes. Timer started.”
-
-📅 Roadmap
- Voice Input & Output
-
- Recipe Search Integration
-
- Step-by-step Cooking Flow
-
- Unit Conversion and Timers
-
- Smart NLP Query Engine
-
- Personalization & Memory
-
-🤝 Contributing
-Pull requests and ideas are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-📄 License
-MIT License. See LICENSE for details.
-
-🙋‍♀️ Creator
-Made with ❤️ by ShravaniJ — powered by Python & AI.
-
-yaml
-Copy
-Edit
+> 👤 **You:** “Find me a pasta recipe.”  
+> 🤖 **Assistant:** “Found ‘Garlic Cream Pasta’. Let’s begin.”  
+> 🤖 **Assistant:** “Step 1: Boil water. Say ‘next’ when ready.”  
+> 👤 **You:** “Next.”  
+> 🤖 **Assistant:** “Step 2: Add pasta and cook for 10 minutes. Timer started.”
 
 ---
 
-Let me know if you want me to:
-- Create the full folder structure locally.
-- Generate `requirements.txt`.
-- Write the first script (`voice_input.py`) using Whisper or `SpeechRecognition`.
+## 📅 Roadmap
 
-Ready when you are!
+- [x] Voice Input & Output  
+- [ ] Recipe Search Integration  
+- [ ] Step-by-step Cooking Flow  
+- [ ] Unit Conversion and Timers  
+- [ ] Smart NLP Query Engine  
+- [ ] Personalization & Memory
+
+---
+
+## 🤝 Contributing
+
+Pull requests and ideas are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+MIT License. See `LICENSE` for details.
+
+---
+
+## 🙋‍♀️ Creator
+
+Made with ❤️ by **ShravaniJ** — powered by Python & AI.
