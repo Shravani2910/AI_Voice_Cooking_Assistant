@@ -1,8 +1,8 @@
 # AI_Voice_Cooking_Assistant
 
-# 🍳 AI Voice Cooking Assistant
+# 🍳  Cheffie - AI Voice Cooking Assistant
 
-An intelligent voice-powered cooking assistant that helps users find recipes, follow step-by-step cooking instructions, convert units, and manage kitchen tasks — all hands-free using voice input and output.
+An intelligent voice-powered cooking assistant Cheffie that helps users find recipes, follow step-by-step cooking instructions, convert units, and manage kitchen tasks — all hands-free using voice input and output.
 
 ---
 
