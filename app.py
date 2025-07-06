@@ -21,15 +21,30 @@ def ask_cheffie(user_input, lang_choice):
         voice_output.speak("Sorry, I couldn't find any recipe.", lang)
         return "Recipe not found."
 
-iface = gr.Interface(
-    fn=ask_cheffie,
-    inputs=[
-        gr.Textbox(label="What would you like to cook?"),
-        gr.Dropdown(choices=["en", "hi", "mr"], value="en", label="Choose Language")
-    ],
-    outputs="text",
-    title="👩‍🍳 Cheffie – Your Voice Cooking Assistant",
-    description="Type your dish. Cheffie will find the recipe and speak in your chosen language!"
+# 🌟 Custom Styling
+custom_theme = gr.themes.Soft(
+    primary_hue="amber", 
+    secondary_hue="rose", 
+    neutral_hue="slate"
 )
 
-iface.launch()
+
+# 🚀 Gradio Interface
+with gr.Blocks(theme=custom_theme) as demo:
+    gr.Markdown("## 👩‍🍳 Welcome to **Cheffie** — Your Voice Cooking Assistant!")
+    gr.Markdown("Type what you want to cook, choose a language, and Cheffie will guide you!")
+
+    with gr.Row():
+        user_input = gr.Textbox(label="🍽️ What would you like to cook?")
+        lang_dropdown = gr.Dropdown(choices=["en", "hi", "mr"], value="en", label="🌍 Language")
+
+    output_box = gr.Textbox(label="📋 Recipe Steps", lines=10)
+
+    submit_btn = gr.Button("Let’s Cook! 👨‍🍳")
+
+    submit_btn.click(fn=ask_cheffie, inputs=[user_input, lang_dropdown], outputs=output_box)
+    
+    gr.Markdown("---")
+    gr.Markdown("**Developed by ShravaniJ**")
+
+demo.launch(share=True)
