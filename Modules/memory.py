@@ -30,3 +30,19 @@ def set_last_recipe(recipe):
     data = load_user_data()
     data["last_recipe"] = recipe
     save_user_data(data)
+
+def remember_user(name):
+    # Example: Save the name to a file or a variable
+    with open("user_memory.json", "w") as f:
+        import json
+        json.dump({"name": name}, f)
+
+def add_to_history(recipe_title):
+    """Add a recipe to the user's cooking history"""
+    data = load_user_data()
+    if "history" not in data:
+        data["history"] = []
+    data["history"].append(recipe_title)
+    save_user_data(data)
+
+
