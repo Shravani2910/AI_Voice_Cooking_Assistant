@@ -53,17 +53,6 @@ To build a voice-controlled AI assistant that makes cooking easier and more inte
 
 ---
 
-## 📅 Roadmap
-
-- [x] Voice Input & Output  
-- [ ] Recipe Search Integration  
-- [ ] Step-by-step Cooking Flow  
-- [ ] Unit Conversion and Timers  
-- [ ] Smart NLP Query Engine  
-- [ ] Personalization & Memory
-
----
-
 
 ---
 
@@ -75,4 +64,4 @@ MIT License. See `LICENSE` for details.
 
 ## 🙋‍♀️ Creator
 
-Made with ❤️ by **ShravaniJ** — AI/ML Engineer
+Developed by **ShravaniJ** 
